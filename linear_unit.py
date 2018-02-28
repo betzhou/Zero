@@ -22,7 +22,7 @@ def get_training_dataset():
     input_vecs = [[5], [3], [8], [1.4], [10.1]]
     # 期望的输出列表，月薪，注意要与输入一一对应
     labels = [5500, 2300, 7600, 1800, 11400]
-    return input_vecs, labels
+    return input_vecs, labels    
 
 
 def train_linear_unit():
@@ -52,7 +52,7 @@ def plot(linear_unit):
     plt.show()
 
 
-if __name__ == '__main__':
+if __name__ == '__main__': 
     '''训练线性单元'''
     linear_unit = train_linear_unit()
     # 打印训练获得的权重
